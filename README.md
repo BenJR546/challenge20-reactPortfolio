@@ -14,7 +14,7 @@ Welcome to my developer portfolio! This single page application was built with *
 
 ## Live Demo
 
-You can view the live demo of the portfolio [here](https://challenge20-reactportfolio.onrender.com)
+You can view the live demo of the portfolio deployed on Netlify [here](https://challenge20-reactportfolio.onrender.com/).
 
 ## Features
 
