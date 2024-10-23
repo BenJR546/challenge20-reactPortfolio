@@ -1,0 +1,60 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  background-color: #282c34;
+  color: white;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+}
+
+footer ul li {
+  margin-right: 1rem;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
