@@ -1,12 +1,6 @@
 import React from "react";
-import {
-    FaHtml5,
-    FaCss3Alt,
-    FaJsSquare,
-    FaNodeJs,
-    FaReact,
-    FaDatabase,
-} from "react-icons/fa"; // Import some icons
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact } from "react-icons/fa";
+import { SiJest, SiGraphql } from "react-icons/si"; // Import Jest and GraphQL icons
 
 const Resume = () => {
     return (
@@ -54,31 +48,32 @@ const Resume = () => {
                 </div>
 
                 <div className="bg-white shadow-md p-6 rounded-lg hover:shadow-xl transition-shadow">
-                    <FaNodeJs className="text-4xl text-green-600 mb-4" />
+                    <FaReact className="text-4xl text-blue-400 mb-4" />
+                    <h4 className="text-xl font-semibold mb-2">MERN Stack</h4>
+                    <p className="text-gray-600">
+                        Proficient in building full-stack apps with MongoDB,
+                        Express, React, and Node.js.
+                    </p>
+                </div>
+
+                <div className="bg-white shadow-md p-6 rounded-lg hover:shadow-xl transition-shadow">
+                    <SiGraphql className="text-4xl text-pink-600 mb-4" />
+                    <h4 className="text-xl font-semibold mb-2">GraphQL</h4>
+                    <p className="text-gray-600">
+                        Experienced in designing and implementing GraphQL APIs
+                        for efficient, scalable data fetching.
+                    </p>
+                </div>
+
+                <div className="bg-white shadow-md p-6 rounded-lg hover:shadow-xl transition-shadow">
+                    <SiJest className="text-4xl text-red-600 mb-4" />
                     <h4 className="text-xl font-semibold mb-2">
-                        Node.js & Express
+                        Testing Frameworks
                     </h4>
                     <p className="text-gray-600">
-                        Proficient in building scalable backend services with
-                        Node.js and Express.
-                    </p>
-                </div>
-
-                <div className="bg-white shadow-md p-6 rounded-lg hover:shadow-xl transition-shadow">
-                    <FaReact className="text-4xl text-blue-400 mb-4" />
-                    <h4 className="text-xl font-semibold mb-2">React</h4>
-                    <p className="text-gray-600">
-                        Experienced in building complex UI using React, hooks,
-                        and state management.
-                    </p>
-                </div>
-
-                <div className="bg-white shadow-md p-6 rounded-lg hover:shadow-xl transition-shadow">
-                    <FaDatabase className="text-4xl text-purple-600 mb-4" />
-                    <h4 className="text-xl font-semibold mb-2">SQL & NoSQL</h4>
-                    <p className="text-gray-600">
-                        Strong skills in database design and management with
-                        PostgreSQL and MongoDB.
+                        Proficient in testing applications with Jest, ensuring
+                        code quality through comprehensive unit and integration
+                        tests.
                     </p>
                 </div>
             </div>

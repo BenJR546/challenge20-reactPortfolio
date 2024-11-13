@@ -42,11 +42,12 @@ const Portfolio = () => {
             imageUrl: "/images/portfolio1Screenshot.png", // Example image path
         },
         {
-            title: "Coming Soon!",
-            description: "More Exciting Projects Coming Soon!",
-            liveUrl: "#",
-            githubUrl: "#",
-            imageUrl: "/images/comingSoon.jpeg", // Example image path
+            title: "Spendify! (Personal Finance App)",
+            description:
+                "A MERN stack web app to track expenses and income! 💰",
+            liveUrl: "https://personalfinaceapp-y9ns.onrender.com/",
+            githubUrl: "https://github.com/Wendyydxiao/personalfinaceapp",
+            imageUrl: "/images/spendify-screenshot.png", // Example image path
         },
     ];
 

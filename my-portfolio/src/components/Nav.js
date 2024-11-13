@@ -45,6 +45,16 @@ const Nav = () => {
                         Resume
                     </NavLink>
                 </li>
+                <li>
+                    <NavLink
+                        to="/dev-blog"
+                        className={({ isActive }) =>
+                            isActive ? "text-yellow-400" : "text-white"
+                        }
+                    >
+                        Dev Blog
+                    </NavLink>
+                </li>
             </ul>
         </nav>
     );
