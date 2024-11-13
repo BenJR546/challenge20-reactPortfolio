@@ -5,7 +5,7 @@ const DevBlog = () => {
     const updates = [
         {
             date: "13-11-2024",
-            title: "Test Update",
+            title: "New Portfolio Section and Introduction to the 2D Game Portfolio",
             progress:
                 "Created a new section to display updates and progress on new projects. The next project I'll be working on will be a 2D video game portfolio! Very excited to begin!",
             image: null,
