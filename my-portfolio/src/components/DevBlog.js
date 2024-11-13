@@ -1,12 +1,13 @@
 import React from "react";
 
 const DevBlog = () => {
-    // Predefined updates array with optional image paths
+    // Predefined updates array with optional title and image paths
     const updates = [
         {
             date: "13-11-2024",
+            title: "New Portfolio Section and Introduction to the 2D Game Portfolio",
             progress:
-                "Created a new section to display updates and progress on new projects. The next project I'll be working on will be a 2d video game portfolio! Very excited to begin!",
+                "Created a new section to display updates and progress on new projects. The next project I'll be working on will be a 2D video game portfolio! Very excited to begin!",
             image: null,
         },
     ];
@@ -37,6 +38,11 @@ const DevBlog = () => {
                                 <p className="text-gray-500 text-sm mb-2">
                                     {update.date}
                                 </p>
+                                {update.title && (
+                                    <h4 className="text-xl font-semibold mb-2 text-blue-600">
+                                        {update.title}
+                                    </h4>
+                                )}
                                 <p className="text-gray-800">
                                     {update.progress}
                                 </p>
